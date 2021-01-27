@@ -13,6 +13,6 @@ print("First user's detail is : "+jsonstring)
 
 """
 Uncomment below to Deserialize 
-"""
 jsonobj = json.loads(jsonstring)
 print(jsonobj['Name']+"'s Age is : ", jsonobj['Age'])
+"""
