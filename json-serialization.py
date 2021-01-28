@@ -16,7 +16,6 @@ To make it fail uncomment the below
 #print(type(jsonstring))
 
 #Uncomment below to Deserialize 
-"""
 jsonobj = json.loads(jsonstring)
 print(jsonobj['Name']+"'s Age is : ", jsonobj['Age'])
-"""
+
